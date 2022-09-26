@@ -1,10 +1,23 @@
 package act3;
 
+import java.util.Scanner;
+
 public class MethodsInJavaExercise {
 
     public static void main(String[] args) {
 
+        Scanner scan = new Scanner(System.in);
+        int[] myArray = new int[5];
         System.out.println("Please enter 5 integer values: ");
+
+        for (int i = 0; i < myArray.length; i++) {
+            myArray[i] = scan.nextInt();
+        }
+
+        getOddValues(myArray);
+
+        int[] container = myArray;
+        displayOddValues(container);
 
     }
 
