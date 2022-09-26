@@ -5,6 +5,7 @@ public class MethodsInJavaExercise {
     public static void main(String[] args) {
 
         System.out.println("Please enter 5 integer values: ");
+
     }
 
     public static int getOddValues(int[] size) {
@@ -16,5 +17,16 @@ public class MethodsInJavaExercise {
 
         }
         return countOdd;
+    }
+
+    public static void displayOddValues(int[] arr) {
+
+        System.out.println("Odd values: ");
+
+        for (int k = 0; k < arr.length; k++) {
+            if (arr[k]%2 == 1) {
+                System.out.println(arr[k]);
+            }
+        }
     }
 }
