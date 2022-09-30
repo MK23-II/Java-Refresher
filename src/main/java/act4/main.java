@@ -13,5 +13,10 @@ public class main {
         employee1.setPosition("Accountant");
 
         employee1.printDetails(); //see employee1 details
+
+
+        Employee employee2 = new Employee(2, "Pedro", "Santiago", "Advertising Department", "Manager");
+
+        employee2.printDetails(); //see employee2 details
     }
 }

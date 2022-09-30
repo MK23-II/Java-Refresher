@@ -3,10 +3,10 @@ package act4;
 public class Employee {
 
     private int ID;
-    private  String firstName;
-    private  String lastName;
-    private  String department;
-    private  String position;
+    private String firstName;
+    private String lastName;
+    private String department;
+    private String position;
 
     //with parameters
     Employee (int empID, String empFirstName, String empLastName, String empDepartment, String empPosition ) {
@@ -73,9 +73,6 @@ public class Employee {
         System.out.println("--------------------------------");
 
     }
-
-
-
 
 
 }
