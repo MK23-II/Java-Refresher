@@ -6,7 +6,7 @@ public class Employee {
     private  String firstName;
     private  String lastName;
     private  String department;
-
+    private  String position;
 
     //with parameters
     Employee (int empID, String empFirstName, String empLastName, String empDepartment, String empPosition ) {
@@ -63,7 +63,15 @@ public class Employee {
         this.position = position;
     }
 
-    private  String position;
+    public void printDetails() {
+        System.out.println("Employee Details: ");
+        System.out.println("ID: " + this.ID);
+        System.out.println("First Name: " + this.firstName);
+        System.out.println("Last Name: " + this.lastName);
+        System.out.println("Department: " + this.department);
+        System.out.println("Position: " + this.position);
+
+    }
 
 
 
