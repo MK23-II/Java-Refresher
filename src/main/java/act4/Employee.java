@@ -70,6 +70,7 @@ public class Employee {
         System.out.println("Last Name: " + this.lastName);
         System.out.println("Department: " + this.department);
         System.out.println("Position: " + this.position);
+        System.out.println("--------------------------------");
 
     }
 
