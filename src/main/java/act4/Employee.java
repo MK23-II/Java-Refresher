@@ -15,6 +15,7 @@ public class Employee {
         lastName = empLastName;
         department = empDepartment;
         position = empPosition;
+
     }
 
     //no parameters
