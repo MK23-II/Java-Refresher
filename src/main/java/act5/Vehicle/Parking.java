@@ -12,11 +12,11 @@ public class Parking {
 
         //create vehicle object
         Vehicle vehicle1 = new Vehicle();
-        System.out.println("Number of doors: ");
+        System.out.print("Number of doors: ");
         doors = scan.nextInt();
-        System.out.println("Number of seats: ");
+        System.out.print("Number of seats: ");
         seats = scan.nextInt();
-        System.out.println("Number of wheels: ");
+        System.out.print("Number of wheels: ");
         wheels = scan.nextInt();
 
         //for spacing
@@ -24,11 +24,11 @@ public class Parking {
 
         //create car object
         Car car1 = new Car();
-        System.out.println("Number of doors: ");
+        System.out.print("Number of doors: ");
         doors = scan.nextInt();
-        System.out.println("Number of seats: ");
+        System.out.print("Number of seats: ");
         seats = scan.nextInt();
-        System.out.println("Number of wheels: ");
+        System.out.print("Number of wheels: ");
         wheels = scan.nextInt();
 
         //print details
