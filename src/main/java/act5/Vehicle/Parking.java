@@ -22,7 +22,17 @@ public class Parking {
         //for spacing
         System.out.println(" ");
 
-        
+        //create car object
+        Car car1 = new Car();
+        System.out.println("Number of doors: ");
+        doors = scan.nextInt();
+        System.out.println("Number of seats: ");
+        seats = scan.nextInt();
+        System.out.println("Number of wheels: ");
+        wheels = scan.nextInt();
+
+        //print details
+        car1.drive();
 
 
 
