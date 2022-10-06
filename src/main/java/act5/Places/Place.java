@@ -1,4 +1,11 @@
 package act5.Places;
 
-public class Place {
+abstract class Place {
+
+    String placeName;
+    int capacity;
+    String placeDescription;
+    int workingHours;
+
+    abstract void showEvents();
 }

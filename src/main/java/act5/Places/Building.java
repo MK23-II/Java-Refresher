@@ -1,4 +1,6 @@
 package act5.Places;
 
-public class Building {
+abstract class Building extends Place {
+
+    abstract void showArea();
 }
