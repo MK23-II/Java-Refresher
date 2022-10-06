@@ -108,9 +108,9 @@ public class CommandLineCalculator {
 
     }
 
-    public static double division(double a, double b) {
+    public static int division(int a, int b) {
 
-        double value;
+        int value;
         value = a / b;
 
         return value;
