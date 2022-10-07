@@ -26,8 +26,19 @@ public class Account extends Contributor {
         this.accountType = accountType;
         this.contributor = contributor;
 
+    }
 
+    public double getContributionRate() {
+        
+    }
 
+    public double calculateContribution() {
 
     }
+
+    public void displayContribution() {
+
+    }
+
+
 }
