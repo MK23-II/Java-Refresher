@@ -14,6 +14,10 @@ public class Contributor {
         this.salary = salary;
     }
 
+    Contributor() {
+
+    }
+
     public String getFirstName() {
         return firstName;
     }
