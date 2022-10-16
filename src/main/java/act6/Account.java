@@ -1,11 +1,13 @@
 package act6;
 
+import java.text.DecimalFormat;
+
 public class Account extends Contributor {
 
     private String accountType;
-    private Contributor contributor;
+    private Contributor contributor; //aggregation
 
-
+    private static final DecimalFormat value = new DecimalFormat(0.00);
 
 
     public String getAccountType() {
@@ -31,15 +33,15 @@ public class Account extends Contributor {
     }
 
     public abstract double getContributionRate() {
-        //will add details later
+        //return contribution rate based on account type
     }
 
     public double calculateContribution() {
-        //will add details later
+        return getContributor().getSalary() * getContributionRate();
     }
 
     public void displayContribution() {
-        //will add details laters
+        System.out.println("Contribution amount: " + value.format(calculateContribution()));
     }
 
 
