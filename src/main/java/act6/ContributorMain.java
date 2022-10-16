@@ -6,4 +6,14 @@ public class ContributorMain {
 
     private static final DecimalFormat value = new DecimalFormat("0.00");
 
+    public static void main(String[] args) {
+
+        
+
+
+
+
+
+    }
+
 }

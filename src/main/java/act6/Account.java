@@ -2,7 +2,7 @@ package act6;
 
 import java.text.DecimalFormat;
 
-public class Account extends Contributor {
+public abstract class Account {
 
     private String accountType;
     private Contributor contributor; //aggregation
@@ -32,9 +32,8 @@ public class Account extends Contributor {
 
     }
 
-    public abstract double getContributionRate() {
+    public abstract double getContributionRate();
         //return contribution rate based on account type
-    }
 
     public double calculateContribution() {
         return getContributor().getSalary() * getContributionRate();
