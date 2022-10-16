@@ -6,6 +6,8 @@ public class Account extends Contributor {
     private Contributor contributor;
 
 
+
+
     public String getAccountType() {
         return accountType;
     }
@@ -28,7 +30,7 @@ public class Account extends Contributor {
 
     }
 
-    public double getContributionRate() {
+    public abstract double getContributionRate() {
         //will add details later
     }
 
