@@ -8,6 +8,6 @@ public class MediSave extends Account {
 
     @Override
     public double getContributionRate() {
-        return 0.07;
+        return 0.08;
     }
 }
