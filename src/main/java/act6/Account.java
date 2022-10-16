@@ -7,7 +7,7 @@ public class Account extends Contributor {
     private String accountType;
     private Contributor contributor; //aggregation
 
-    private static final DecimalFormat value = new DecimalFormat(0.00);
+    private static final DecimalFormat value = new DecimalFormat("0.00");
 
 
     public String getAccountType() {
